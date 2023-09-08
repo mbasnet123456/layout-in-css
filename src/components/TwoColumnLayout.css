@@ -1,0 +1,26 @@
+/* TwoColumnLayout.css */
+
+.two-column-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left-column {
+  flex: content;
+  background-color: gray;
+  padding: 20px;
+}
+
+.right-column {
+  flex-basis: 600px;
+  background-color: orange;
+  padding: 20px;
+}
+.wrapper {
+  height: 200px;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
